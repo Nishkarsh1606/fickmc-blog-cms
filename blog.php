@@ -11,7 +11,7 @@ if(!isset($_GET['id'])) {
       $blog_details = getBlog($_GET['id']);
       foreach($blog_details as $blog_detail) {
     ?>
-      <header class="masthead" style="background-image: url('<?php echo BLOG_IMG_DIR . $blog_detail['image']; ?>')">
+      <header class="masthead" style="background-image: url('assets/upload/<?php echo $blog_detail['image']; ?>')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">

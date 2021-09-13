@@ -21,7 +21,7 @@ if(!isset($_GET['id'])) {
         
               <!-- POST START #<?php echo $i ?> -->
               <div class="post-preview">
-                <a href="<?php echo BLOG_DIR.'.php?id='.$blog['url_slug']; ?>">
+                <a href="<?php echo 'blog.php?id='.$blog['url_slug']; ?>">
                   <h2 class="post-title"><?php echo $blog['title']; ?></h2>
                 </a>
                 <p class="post-meta">

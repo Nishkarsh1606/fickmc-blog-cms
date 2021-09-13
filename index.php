@@ -4,7 +4,7 @@ include 'assets/includes/navbar.php';
 ?>
 
     
-    <header class="masthead" style="background-image: url('http://localhost/fic-blog/template/img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('assets/upload/907379_09e1a620_0f45_4335_b34f_555eeae63c31.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
